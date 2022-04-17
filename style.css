@@ -41,7 +41,7 @@ nav {
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center;    
 }
 nav li {
     border-radius: 8px;
@@ -54,11 +54,12 @@ nav ul{
     display: flex;
     gap: 7px;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+    align-items: center;
 }
 .active {
     border-radius: 8px;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 
