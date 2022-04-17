@@ -76,7 +76,6 @@ section {
     background-attachment: fixed;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 6px solid red;
 }
 
 .main h2 {
