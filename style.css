@@ -16,6 +16,8 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 999;
+    gap: 1.5em;
+    padding: .4em .7em;
     /* border: 2px solid red; */
 }
 
@@ -31,14 +33,28 @@ header{
     font-weight: 600;
     color: #9b000a;
 }
+.uni-title:hover {
+    color: #009B91;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    border-radius: 8px;
+    font-weight: 500;
+    height: 100%;
+}
 
 nav ul{
     list-style: none;
-    /* border: 2px solid black; */
     display: flex;
-    gap: 5px;
+    gap: 7px;
     justify-content: space-between;
-    padding: .5em;
+    
 }
 
 section {
@@ -47,13 +63,12 @@ section {
 
 .main {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)
-    ),
+        rgba(0, 0, 0, 0.5)),
     url("images/estu_view.jpeg");
     background-repeat:  no-repeat;
     background-size: cover;
@@ -61,23 +76,25 @@ section {
     background-attachment: fixed;
 }
 
-.main p {
+.main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
 
-.main p span{
+.main h2 span{
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 15px;
     letter-spacing: 1px;
     color: #9b000a;
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 600;
-    
 }
+
 .socials .s-icon{
+    max-height: 40px;
+    margin-right: 4px;
     filter: invert(36%) sepia(92%) saturate(702%) hue-rotate(135deg) brightness(103%) contrast(101%);
 }
 
@@ -89,7 +106,6 @@ section {
     display: flex;
     justify-content: flex-start;
     gap: 2em;
-    /* border: 2px solid red; */
     align-items: flex-start;
     background-color: #f1ecec;
 }
@@ -103,24 +119,31 @@ section {
     margin-bottom: 30px;
 }
 
-aside {
-    
-}
-
 aside ul{
     list-style: none;
 }
 
-aside ul li a {
+.highlight a {
+    display: flex;
     color: #9b000a;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: background 1s; 
+    transition: background 1s; 
+    border-radius: 8px;
+    padding: .3em;
+}
+.highlight a:hover {
+    background-color: #009B91;
 }
 
 .aside {
-    /*border: 2px solid green;*/
     font-size: 1.5em;
     padding: 3rem;
     padding-left: 0;
     width: 20%;
+    
+    
 }
 
 .announcements {
@@ -168,7 +191,18 @@ aside ul li a {
 }
 
 footer {
-    
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    min-height: 9em;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 
