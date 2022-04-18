@@ -250,9 +250,6 @@ footer p {
 }
 
 /* ***********Login page *********** */
-.login-header {
-
-}
 .show-login{
     background: #fff;
     padding: 10px 20px;
@@ -544,4 +541,50 @@ input[type="checkbox"] {
 }
 .stdnt-menu:hover .menu-btn {
     background-color: transparent;
+}
+
+.cards {
+    width: 100%;
+    min-height: 20em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 25em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: .2s ease;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.club-img img {
+    width: 100%;
+    
+}
+.card-info {
+    padding: 1em;
+}
+.card-info p {
+    font-size: 0.8em;
+    color: #000;
+}
+.club-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.read-more {
+    text-decoration: none;
+    color: #9b000a;
+}
+.read-more:hover {
+    color: #009b91;
 }
