@@ -630,3 +630,22 @@ input[type="checkbox"] {
     display: flex;
     justify-content: center;
 }
+/*************research***********/
+.rsch-graphs {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1em;
+    
+}
+.rsch-graphs .graph{
+    max-width: 25em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    transition: .5s ease;
+}
+.graph:hover {
+    transform: scale(1.1);
+}
