@@ -588,3 +588,38 @@ input[type="checkbox"] {
 .read-more:hover {
     color: #009b91;
 }
+
+/**********Document**********/
+.doc-cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2.5em;
+    flex-wrap: wrap;
+}
+.doc-card {
+    background-color: #fff;
+    width: 15em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 1.5em;
+    margin: 0.9em;
+}
+.doc-card .icon {
+    display: flex;
+    justify-content: center;
+}
+.doc-card .icon img {
+    filter: invert(6%) sepia(63%) saturate(7410%) hue-rotate(351deg) brightness(139%) contrast(108%);
+    height: 8em;
+}
+.doc-card .info {
+    text-align: center;
+}
+.doc-card a {
+    color: #9b000a;
+}
+.down-icon {
+    filter: invert(6%) sepia(63%) saturate(7410%) hue-rotate(351deg) brightness(139%) contrast(108%);
+    margin-left: 6px;
+}
