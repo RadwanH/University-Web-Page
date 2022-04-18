@@ -623,3 +623,10 @@ input[type="checkbox"] {
     filter: invert(6%) sepia(63%) saturate(7410%) hue-rotate(351deg) brightness(139%) contrast(108%);
     margin-left: 6px;
 }
+
+/************Campus life******/
+.abt-campus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
