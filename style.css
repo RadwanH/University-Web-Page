@@ -394,6 +394,9 @@ form .pass-link a:hover,
 form .signup-link a:hover {
     text-decoration: underline;
 }
+.login-title {
+    display: none;
+}
 
 /*****University*********/
 .uni-main {
@@ -643,6 +646,11 @@ form .signup-link a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+iframe {
+    border-radius: 10px;
+    height: 400px;
+    width: 76.08%;
 }
 
 /*************research***********/
