@@ -453,6 +453,7 @@ form .signup-link a:hover {
     background-color: rgba(241, 236, 236, 0.2);
     border-radius: 10px;
     transition: 1s ease;
+    overflow: scroll;
 }
 
 .uni-img-2:hover img {
