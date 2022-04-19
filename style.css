@@ -89,15 +89,59 @@ section {
     font-weight: 500;
 }
 
-.main h2 span {
+.main h2 .typer h2 {
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 15px;
     letter-spacing: 1px;
+    font-weight: 600;
+    background: rgba(241, 236, 236, 0.3);
+    border-radius: 10px;
     color: #9b000a;
     font-size: 1.5em;
-    font-weight: 600;
+
 }
+/*.typer {
+    position: relative;
+}
+.typer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: #009b91;
+    animation: blinkCursor 0.8s steps(3) infinite;
+}
+@keyframes blinkCursor 
+{
+    0%,75%
+    {
+        opacity: 1;
+    }
+    76%,100%
+    {
+        opacity: 0;
+    }
+}
+.typer h2 {
+    position: relative;
+    letter-spacing: 1px;
+    animation: typing 8s steps(27) infinite;
+    overflow: hidden;
+}
+@keyframes typing 
+{
+    0%,90%,100%
+    {
+        width: 0px;
+    }
+    30%,60%
+    {
+        width: 522.47px;
+    }
+}*/
 
 .socials .s-icon {
     max-height: 40px;
