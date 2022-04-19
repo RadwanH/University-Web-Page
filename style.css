@@ -99,49 +99,7 @@ section {
     border-radius: 10px;
     color: #9b000a;
     font-size: 1.5em;
-
 }
-/*.typer {
-    position: relative;
-}
-.typer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: #009b91;
-    animation: blinkCursor 0.8s steps(3) infinite;
-}
-@keyframes blinkCursor 
-{
-    0%,75%
-    {
-        opacity: 1;
-    }
-    76%,100%
-    {
-        opacity: 0;
-    }
-}
-.typer h2 {
-    position: relative;
-    letter-spacing: 1px;
-    animation: typing 8s steps(27) infinite;
-    overflow: hidden;
-}
-@keyframes typing 
-{
-    0%,90%,100%
-    {
-        width: 0px;
-    }
-    30%,60%
-    {
-        width: 522.47px;
-    }
-}*/
 
 .socials .s-icon {
     max-height: 40px;
